@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+package Shared;
+
+option csharp_namespace = "Shared.Models";
+
+message CallRequest {
+  string Name = 1;
+  string Title = 2;
+}
